@@ -17,6 +17,13 @@ DATASETS_FOLDER_ABS_PATH = path.join(BASE_DIR, STATIC_PATH, DATASETS_FOLDER)
 DATASET_BWSAS_FILE_ABS_PATH = path.join(DATASETS_FOLDER_ABS_PATH, DATASET_BWSAS_FILE)
 
 """
+Пути для хранения сторонних библиотек
+"""
+
+PROTOC_EXE = "libs\\protoc-25.1-win64\\bin\\protoc.exe"
+PROTOC_LIBS = "libs\\protoc-25.1-win64\\include\\google\\protobuf"
+
+"""
 Пути для хранения динамичных файлов
 """
 
